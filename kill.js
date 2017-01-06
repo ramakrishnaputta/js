@@ -1,3 +1,4 @@
+'use strict';
 if ('serviceWorker' in navigator) {
   console.info('Service Wroker Present');
   if (Notification.permission !== 'granted') {
